@@ -1,0 +1,16 @@
+/* Global CSS or styling utility */
+.custom-scrollbar-design::-webkit-scrollbar {
+      width: 8px;
+}
+
+.custom-scrollbar-design::-webkit-scrollbar-thumb {
+      background-color: #147cc3;
+      /* Set the thumb color */
+      border-radius: 8px;
+      /* Set the top and bottom rounded corners */
+}
+
+.custom-scrollbar-design::-webkit-scrollbar-track {
+      background-color: #bbbbbb;
+      /* Set the track color */
+}
