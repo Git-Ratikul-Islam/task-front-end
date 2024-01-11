@@ -29,7 +29,7 @@ const Todo = () => {
             const newFile = { file };
             console.log(newFile);
             // send data to the server
-            fetch('http://localhost:5000/task', {
+            fetch('https://task-server-frontend.vercel.app/task', {
                   method: 'POST',
                   headers: {
                         'content-type': 'application/json'
